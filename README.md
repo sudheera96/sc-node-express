@@ -95,17 +95,17 @@ get() is HTTP verb. res and req are the two objects of express also know as resp
 
 For node.js heroku is one of the best server application.
 
-In package.json, add (type, don't copy)  "engines": { "node": "15.x" }  - it require for heroku to have latest version of node.
-In package.json, add a new scripts entry: "start" : "node app.js" - in order to use default port 3000 by heroku use the start script.
-Have the app listen on process.env.PORT || 3000 - add this line app.js file.
+* In package.json, add (type, don't copy)  "engines": { "node": "15.x" }  - it require for heroku to have latest version of node.
+* In package.json, add a new scripts entry: "start" : "node app.js" - in order to use default port 3000 by heroku use the start script.
+* Have the app listen on process.env.PORT || 3000 - add this line app.js file.
 
 ### Heroku App Config (deploy on push to repo)
 
-Login to Heroku (use same email as you use for GitHub)
-Create a new app (I use the same name as my repo if the name not taken already, orelse use other name)
-Deploy / Deployment method = GitHub (and connect to your repo)
-Deploy / Enable Automatic Deploys. 
-Settings / Get the app URL
+* Login to Heroku (use same email as you use for GitHub)
+* Create a new app (I use the same name as my repo if the name not taken already, orelse use other name)
+* Deploy / Deployment method = GitHub (and connect to your repo)
+* Deploy / Enable Automatic Deploys. 
+* Settings / Get the app URL
 
 ## Heroku Link
 * https://cs-node-express.herokuapp.com/
