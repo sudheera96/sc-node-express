@@ -40,7 +40,7 @@ node app.js
 ```
 to start
 ### View
-image.
+![](https://raw.githubusercontent.com/sudheera96/sc-node-express/main/Screenshot%20(243).png)
 
 > The above process created node_modules folder. So we can ignore that vast folder by .gitignore file. 
 > As we choosed .gitignore with node template so node_modules ignore automatically.
